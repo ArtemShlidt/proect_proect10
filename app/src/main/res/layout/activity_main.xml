@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hightsky"
+    tools:context=".MainActivity"  android:orientation="vertical" android:gravity="center"
+    >
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="296dp"
+        android:layout_height="43dp"
+        android:background="#356FA8"
+        android:hint="Введите e-mail"
+        android:textColor="#F8F8F8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="296dp"
+        android:layout_height="46dp"
+        android:background="#356FA8"
+        android:hint="Введите пароль"
+        android:textColor="#F8B714"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <Button
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:background="#266196"
+        android:text="продолжить"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+
+
+
+</LinearLayout>
